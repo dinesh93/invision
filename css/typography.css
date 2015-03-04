@@ -32,3 +32,27 @@
   font-weight: normal;
   font-style: normal;
 }
+
+body {
+  font-family: 'proxima-nova', sans-serif;
+}
+
+footer {
+  font-size: 12px;
+}
+
+footer a {
+  color: #00af88;
+  text-decoration: none;
+}
+
+#sub-nav a:hover {
+  font-family: 'proxima-nova-bold', sans-serif;
+}
+
+#subnav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+  letter-spacing: 1px;
+}
