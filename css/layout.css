@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: 'proxima-nova', sans-serif;
 }
 
 header {
@@ -32,7 +33,7 @@ header navigation form {
 header navigation form input {
   background-color: #262728;
   border-radius: 3px;
-  border: 1px solid #ccc;
+  border: 1px solid #666;
   height: 25px;
   width: 170px;
 }
@@ -42,4 +43,28 @@ header navigation form input {
   padding: 10px;
   margin-left: 50px;
   display: black;
+}
+
+footer {
+  margin-top: 30px;
+  padding-top: 30px;
+  border-top: 1px solid #eee;
+  font-size: 12px;
+}
+
+footer ul {
+  list-style-type: none;
+  width: 50%;
+  margin: auto;
+}
+
+footer ul li {
+  float: left;
+  padding-right: 10px;
+  color: #888888;
+}
+
+footer a {
+  color: #00af88;
+  text-decoration: none;
 }
