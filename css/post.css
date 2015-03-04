@@ -1,0 +1,50 @@
+#post_section {
+  width: 80%;
+  overflow: hidden;
+  margin: 50px auto;
+  color: #a8a8a8;
+}
+
+.column-left {
+  float: left;
+  width: 33%;
+}
+
+.column-middle {
+  float: left;
+  width: 33%;
+}
+
+.column-right {
+  float: right;
+  width: 33%;
+}
+
+.post {
+  border-radius: 3px;
+  border: 1px solid #d3d3d3;
+  overflow: hidden;
+  width: 90%;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.post img {
+  display: block;
+  float: left;
+  margin-right: 10px;
+}
+
+.post .post-body {
+  float: left;
+  width: 80%;
+}
+
+.post .post-body p {
+  margin-top: 0;
+}
+
+.post a {
+  color: #ccc;
+  text-decoration: none;
+}
