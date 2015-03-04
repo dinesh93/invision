@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #262728;
+  clear: both;
+  display: block;
+  overflow: hidden;
+}
+
+header navigation {
+  padding: 10px 40px 0px;
+  float: right;
+}
+
+header navigation a {
+  float: left;
+  display: block;
+}
+
+header navigation a.profile_pic {
+  float:left;
+}
+
+header navigation form {
+  float: left;
+  margin: 0 20px;
+}
+
+header navigation form input {
+  background-color: #262728;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  height: 25px;
+  width: 170px;
+}
+
+#logo {
+  float: left;
+  padding: 10px;
+  margin-left: 50px;
+  display: black;
+}
