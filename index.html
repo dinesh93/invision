@@ -11,7 +11,7 @@
   <!-- header -->
   <header>
     <img id="logo" src="images/logo.gif" alt="simplysocial" />
-    <navigation>
+    <navigation id="top_nav">
       <a href="/" id="message_launcher"><img src="images/message_launch_icon.gif" alt="new message" /></a>
       <form>
         <input name="search_keyword" id="search_keyword" value="" />
@@ -20,9 +20,22 @@
     </navigation>
   </header>
 
-  <!-- marquee -->
-  <div>
-
+  <!-- marquee banner -->
+  <div id="marquee_banner">
+    <div class="content-upload-section">
+      <p>What's on your mind?</p>
+      <span>
+        <a href="/photo/new" class="add-photo">Add Photo</a>
+        <a href="/video/new" class="add-video">Add Video</a>
+      </span>
+    </div>
+    <navigation id="subnav">
+      <ul>
+        <li><a href="/posts" class="active">ALL POSTS</a></li>
+        <li><a href="/photos">PHOTOS</a></li>
+        <li><a href="/videos">VIDEOS</a></li>
+      </ul>
+    </navigation>
   </div>
 
   <!-- posts -->

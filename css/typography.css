@@ -4,3 +4,31 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face{
+  font-family:'proxima-nova-bold';
+  src: url('../fonts/proxima_nova/ProximaNova-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face{
+  font-family:'proxima-nova-light';
+  src: url('../fonts/proxima_nova/ProximaNova-Light.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face{
+  font-family:'proxima-nova-lightit';
+  src: url('../fonts/proxima_nova/ProximaNova-Lightit.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family:'proxima-novacond-light';
+  src: url('../fonts/proxima_nova/ProximaNovaCond-Light.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
