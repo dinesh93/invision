@@ -46,11 +46,11 @@ footer a {
   text-decoration: none;
 }
 
-#sub-nav a:hover {
+.sub-nav a:hover {
   font-family: 'proxima-nova-bold', sans-serif;
 }
 
-#subnav a {
+.subnav a {
   color: #fff;
   text-decoration: none;
   font-size: 13px;
