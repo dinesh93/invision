@@ -5,6 +5,7 @@
   <link rel="stylesheet" type="text/css" href="css/typography.css">
   <link rel="stylesheet" type="text/css" href="css/layout.css">
   <link rel="stylesheet" type="text/css" href="css/post.css">
+  <link rel="stylesheet" type="text/css" href="css/chat.css">
 </head>
 
 <body>
@@ -13,7 +14,7 @@
   <header>
     <img id="logo" src="images/logo.gif" alt="simplysocial" />
     <navigation id="top_nav">
-      <a href="/" id="message_launcher"><img src="images/message_launch_icon.gif" alt="new message" /></a>
+      <a href="/" id="chat_launcher"><img src="images/message_launch_icon.gif" alt="new message" /></a>
       <form>
         <input name="search_keyword" id="search_keyword" value="" />
       </form>
@@ -239,5 +240,17 @@
     </ul>
   </footer>
 
+  <div id="chat_modal">
+    <p>Create new message</p>
+    <form>
+      <textarea name="chat_message"></textarea>
+      <input name="submit" type="submit" value="Post" />
+    </form>
+  </div>
+
+  <div id="overlay"></div>
+
+  <script src="js/jquery-2.1.3.min.js"></script>
+  <script src="js/index.js"></script>
 </body>
 </html>
