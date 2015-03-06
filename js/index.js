@@ -6,7 +6,7 @@
       $navDropDown = $("#drop_down_wrapper");
 
   //disabling all links
-  $("a").not(".settings").on("click", function (e) {
+  $("a").not(".settings,.home").on("click", function (e) {
     e.preventDefault();
   });
 

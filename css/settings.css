@@ -122,3 +122,60 @@ hr {
   top: 18px;
   margin-left: 20px;
 }
+
+#privacy_controls label {
+  display: block;
+  cursor: pointer;
+  border: 1px solid green;
+  position: relative;
+  left: 2px;
+  margin-bottom: 20px;
+  width: 20px;
+  height: 20px;
+  border-radius: 15px;
+}
+
+#privacy_controls label:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 15px;
+    margin-right: 10px;
+    position: absolute;
+    left: -2px;
+    top: -2px;
+    bottombottom: 1px;
+}
+
+#privacy_controls input[type=radio]:checked + label:before {
+  content: "\2022";
+  color: #00af88;
+  font-size: 70px;
+  text-align: center;
+  line-height: 18px;
+  position: absolute;
+}
+
+#privacy_controls .radio label:before {
+    border-radius: 8px;
+}
+
+input[name="tag_permissions"],
+input[type="checkbox"] {
+  display: none;
+}
+
+.notification-radio, .notification-checkbox {
+  clear: both;
+}
+
+.notification-radio > div,
+.notification-checkbox > div {
+  float: left;
+}
+
+.notification-radio > span,
+.notification-checkbox > span {
+  padding-left: 30px;
+}

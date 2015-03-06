@@ -12,7 +12,7 @@
 
   <!-- header -->
   <header>
-    <img id="logo" src="images/logo.gif" alt="simplysocial" />
+    <a href="index.html" class="home"><img id="logo" src="images/logo.gif" alt="simplysocial" /></a>
     <navigation id="top_nav">
       <a href="/" id="chat_launcher"><img src="images/message_launch_icon.gif" alt="new message" /></a>
       <form>
@@ -41,47 +41,98 @@
     <hr />
 
     <h2>NOTIFICATIONS</h2>
-    <div>
-      <div class="notification">
-        <label class="switch switch-green">
-          <input type="checkbox" class="switch-input" checked>
-          <span class="switch-label" data-on="On" data-off="Off"></span>
-          <span class="switch-handle"></span>
-        </label>
-        <span>email me when my posts are marked as favorites</span>
-      </div>
-
-      <div class="notification">
-        <label class="switch switch-green">
-          <input type="checkbox" class="switch-input" checked>
-          <span class="switch-label" data-on="On" data-off="Off"></span>
-          <span class="switch-handle"></span>
-        </label>
-        <span>email me when I'm mentioned</span>
-      </div>
-
-      <div class="notification">
-        <label class="switch switch-green">
-          <input type="checkbox" class="switch-input" checked>
-          <span class="switch-label" data-on="On" data-off="Off"></span>
-          <span class="switch-handle"></span>
-        </label>
-        <span>email me when someone follows me</span>
-      </div>
-
-      <div class="notification">
-        <label class="switch switch-green">
-          <input type="checkbox" class="switch-input" checked>
-          <span class="switch-label" data-on="On" data-off="Off"></span>
-          <span class="switch-handle"></span>
-        </label>
-        <span>email me when my posts are marked as favorites</span>
-      </div>
-      
-      <div>
-
-      </div>
+    <div class="notification">
+      <label class="switch switch-green">
+        <input type="checkbox" class="switch-input" checked>
+        <span class="switch-label" data-on="On" data-off="Off"></span>
+        <span class="switch-handle"></span>
+      </label>
+      <span>email me when my posts are marked as favorites</span>
     </div>
+
+    <div class="notification">
+      <label class="switch switch-green">
+        <input type="checkbox" class="switch-input" checked>
+        <span class="switch-label" data-on="On" data-off="Off"></span>
+        <span class="switch-handle"></span>
+      </label>
+      <span>email me when I'm mentioned</span>
+    </div>
+
+    <div class="notification">
+      <label class="switch switch-green">
+        <input type="checkbox" class="switch-input" checked>
+        <span class="switch-label" data-on="On" data-off="Off"></span>
+        <span class="switch-handle"></span>
+      </label>
+      <span>email me when someone follows me</span>
+    </div>
+
+    <div class="notification">
+      <label class="switch switch-green">
+        <input type="checkbox" class="switch-input" checked>
+        <span class="switch-label" data-on="On" data-off="Off"></span>
+        <span class="switch-handle"></span>
+      </label>
+      <span>email me when my posts are marked as favorites</span>
+    </div>
+
+    <hr />
+
+    <h2>PRIVACY</h2>
+    <div id="privacy_controls">
+      <div class="notification-radio">
+        <div>
+          <input id="tag_permissions1" type="radio" name="tag_permissions" value="anyone" checked>
+          <label for="tag_permissions1"></label>
+        </div>
+        <span>allow anyone to tag me</span>
+      </div>
+
+      <div class="notification-radio">
+        <div>
+
+          <input id="tag_permissions2" type="radio" name="tag_permissions" value="followers">
+          <label for="tag_permissions2"></label>
+        </div>
+        <span>only allow people I follow to tag me</span>
+      </div>
+
+      <div class="notification-radio">
+        <div>
+          <input id="tag_permissions3" type="radio" name="tag_permissions" value="noone">
+          <label for="tag_permissions3"></label>
+        </div>
+        <span>don't allow anyone to tag me</span>
+      </div>
+
+
+      <div class="notification-checkbox">
+        <div>
+          <input id="add_location_to_post" name="add_location_to_post" type="checkbox" />
+          <label for="add_location_to_post"></label>
+        </div>
+        <span>add a location to my posts</span>
+      </div>
+
+      <div class="notification-checkbox">
+        <div>
+          <input id="let_others_find_me" name="let_others_find_me" type="checkbox" />
+          <label for="let_others_find_me"></label>
+        </div>
+        <span>let others find me by my email address</span>
+      </div>
+
+      <div class="notification-checkbox">
+        <div>
+          <input id="tailor_ads" name="tailor_ads" type="checkbox" />
+          <label for="tailor_ads"></label>
+        </div>
+        <span>tailor ads based on my information</span>
+      </div>
+
+    </div><!-- /privacy_controls -->
+
   </div>
 
   <!-- footer -->
