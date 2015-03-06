@@ -32,6 +32,7 @@
   height: 90px;
   resize: none;
   border: none;
+  margin-bottom: 20px;
 }
 
 #chat_modal input[type="submit"] {
@@ -42,9 +43,24 @@
   padding: 10px 20px;
   font-size: 15px;
   border: 0;
-  margin: 10px 0;
 }
 
 #chat_modal > p {
   margin-top: 25px;
+}
+
+#chat_modal a {
+  color: #999;
+}
+
+#chat_modal a:hover {
+  color: #666;
+}
+
+#chat_modal a.add-photo {
+  background: url(../images/photo_icon_gray_trans.png) no-repeat;
+}
+
+#chat_modal a.add-video {
+  background: url(../images/video_icon_gray_trans.png) no-repeat;
 }

@@ -104,7 +104,8 @@ footer ul li {
   margin-bottom: 40px;
 }
 
-#marquee_banner .content-upload-section a {
+#marquee_banner .content-upload-section a,
+#chat_modal a {
   color: #fff;
   text-decoration: none;
   font-family: 'proxima-nova-light', sans-serif;
@@ -114,15 +115,15 @@ footer ul li {
   padding-left: 30px;
 }
 
-#marquee_banner .content-upload-section a.add-photo {
+a.add-photo {
   background: url(../images/photo_icon_trans.png) no-repeat;
 }
 
-#marquee_banner .content-upload-section a.add-video {
+a.add-video {
   background: url(../images/video_icon_trans.png) no-repeat;
 }
 
-#marquee_banner .content-upload-section a:Hover {
+a:Hover {
   opacity: 1.0;
 }
 

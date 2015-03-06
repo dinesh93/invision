@@ -4,6 +4,11 @@
       $overlay = $("#overlay"),
       $chatModal = $("#chat_modal");
 
+  //disabling all links
+  $("a").on("click", function (e) {
+    e.preventDefault();
+  });
+
   $chatIcon.on("click", function (e) {
     $overlay.fadeIn();
     $chatModal.fadeIn();
