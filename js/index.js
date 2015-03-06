@@ -2,22 +2,39 @@
 
   var $chatIcon = $("#chat_launcher"),
       $overlay = $("#overlay"),
-      $chatModal = $("#chat_modal");
+      $chatModal = $("#chat_modal"),
+      $profilePic = $("#profile_pic"),
+      $navDropDown = $("#drop_down_wrapper");
 
   //disabling all links
-  $("a").on("click", function (e) {
+  $("a").not(".settings").on("click", function (e) {
     e.preventDefault();
   });
 
   $chatIcon.on("click", function (e) {
     $overlay.fadeIn();
     $chatModal.fadeIn();
-    e.preventDefault();
   });
 
   $overlay.on("click", function () {
     $overlay.fadeOut();
     $chatModal.fadeOut();
+  });
+
+  $profilePic.on("mouseenter", function (e) {
+    $navDropDown.show();
+  });
+
+  $profilePic.on("mouseleave", function (e) {
+    $navDropDown.hide();
+  });
+
+  $navDropDown.on("mouseenter", function (e) {
+    $navDropDown.show();
+  });
+
+  $navDropDown.on("mouseleave", function (e) {
+    $navDropDown.hide();
   });
 
 }());

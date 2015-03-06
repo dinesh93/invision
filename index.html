@@ -18,13 +18,7 @@
       <form>
         <input name="search_keyword" id="search_keyword" value="" />
       </form>
-      <a href="/" class="profile_pic"><img src="images/user_profile_pic.jpg" alt="" /></a>
-      <ul id="nav_drop_down">
-        <li>Profile</li>
-        <li>Followers</li>
-        <li>Following</li>
-        <li>Settings</li>
-      </ul>
+      <a href="/" id="profile_pic"><img src="images/user_profile_pic.jpg" alt="" /></a>
     </navigation>
   </header>
 
@@ -245,6 +239,15 @@
       <li>&copy; 2014 SIMPLYSOCIAL</li>
     </ul>
   </footer>
+
+  <div id="drop_down_wrapper">
+    <ul id="nav_drop_down">
+      <li class="first"><a href="#">Profile</a><span class="arrow-pointer">&#9650;</span></li>
+      <li><a href="#">Followers</a></li>
+      <li><a href="#">Following</a></li>
+      <li class="last"><a href="settings.html" class="settings">Settings</a></li>
+    </ul>
+  </div>
 
   <div id="chat_modal">
     <p>Create new message</p>
