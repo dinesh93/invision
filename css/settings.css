@@ -148,7 +148,8 @@ hr {
     bottombottom: 1px;
 }
 
-#privacy_controls input[type=radio]:checked + label:before {
+#privacy_controls input[type=radio]:checked + label:before,
+#privacy_controls input[type=checkbox]:checked + label:before {
   content: "\2022";
   color: #00af88;
   font-size: 70px;
