@@ -17,6 +17,17 @@ button {
   margin: 10px 0;
 }
 
+button.green {
+  display: block;
+  background-color: #00af88;
+  color: #fff;
+  border-radius: 5px;
+  width: 130px;
+  margin: 10px 0;
+  height: 40px;
+  font-size: 14px;
+}
+
 .profile-pic-section,
 .profile-info {
   float: left;
