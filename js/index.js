@@ -1,5 +1,4 @@
 (function () {
-
   var $chatIcon = $("#chat_launcher"),
       $overlay = $("#overlay"),
       $chatModal = $("#chat_modal"),

@@ -56,3 +56,14 @@ footer a {
   font-size: 13px;
   letter-spacing: 1px;
 }
+
+h1 {
+  color: #111;
+  font-family: 'proxima-nova-light', sans-serif;
+}
+
+h2 {
+  color: #999;
+  font-family: 'proxima-nova', sans-serif;
+  font-size: 13px;
+}

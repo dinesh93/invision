@@ -4,7 +4,7 @@
   <title>Invision Code Challenge | Hillel Familant</title>
   <link rel="stylesheet" type="text/css" href="css/typography.css">
   <link rel="stylesheet" type="text/css" href="css/layout.css">
-  <link rel="stylesheet" type="text/css" href="css/post.css">
+  <link rel="stylesheet" type="text/css" href="css/settings.css">
   <link rel="stylesheet" type="text/css" href="css/chat.css">
 </head>
 
@@ -22,8 +22,66 @@
     </navigation>
   </header>
 
+  <!-- settting content section -->
   <div id="settings_content">
+    <h1>Settings</h1>
+    <h2>ACCOUNT</h2>
+    <div id="personal_info">
+      <div class="profile-pic-section">
+        <img src="images/user_profile_large.png" alt="profile pic" />
+        <button>change</button>
+      </div>
+      <div class="profile-info">
+        <input type="text" name="full_name" value="Jessica Tuan" />
+        <input type="text" name="email" value="jessica@mail.com" />
+        <input type="password" name="password" value="password" />
+      </div>
+    </div>
 
+    <hr />
+
+    <h2>NOTIFICATIONS</h2>
+    <div>
+      <div class="notification">
+        <label class="switch switch-green">
+          <input type="checkbox" class="switch-input" checked>
+          <span class="switch-label" data-on="On" data-off="Off"></span>
+          <span class="switch-handle"></span>
+        </label>
+        <span>email me when my posts are marked as favorites</span>
+      </div>
+
+      <div class="notification">
+        <label class="switch switch-green">
+          <input type="checkbox" class="switch-input" checked>
+          <span class="switch-label" data-on="On" data-off="Off"></span>
+          <span class="switch-handle"></span>
+        </label>
+        <span>email me when I'm mentioned</span>
+      </div>
+
+      <div class="notification">
+        <label class="switch switch-green">
+          <input type="checkbox" class="switch-input" checked>
+          <span class="switch-label" data-on="On" data-off="Off"></span>
+          <span class="switch-handle"></span>
+        </label>
+        <span>email me when someone follows me</span>
+      </div>
+
+      <div class="notification">
+        <label class="switch switch-green">
+          <input type="checkbox" class="switch-input" checked>
+          <span class="switch-label" data-on="On" data-off="Off"></span>
+          <span class="switch-handle"></span>
+        </label>
+        <span>email me when my posts are marked as favorites</span>
+      </div>
+      
+      <div>
+
+      </div>
+    </div>
   </div>
 
   <!-- footer -->
@@ -36,6 +94,15 @@
       <li>&copy; 2014 SIMPLYSOCIAL</li>
     </ul>
   </footer>
+
+  <div id="drop_down_wrapper">
+    <ul id="nav_drop_down">
+      <li class="first"><a href="#">Profile</a><span class="arrow-pointer">&#9650;</span></li>
+      <li><a href="#">Followers</a></li>
+      <li><a href="#">Following</a></li>
+      <li class="last"><a href="settings.html" class="settings">Settings</a></li>
+    </ul>
+  </div>
 
   <div id="chat_modal">
     <p>Create new message</p>
